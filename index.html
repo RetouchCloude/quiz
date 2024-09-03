@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from templates.seekviral.com/quiza/quiz/Quiz12/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Sep 2024 07:47:54 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/Bootstrap/bootstrap.min.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- animation -->
+    <link rel="stylesheet" href="assets/css/animation.css" />
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!-- thankyou CSS -->
+    <link rel="stylesheet" href="assets/css/thankyou.css" />
+  </head>
+  <body>
+    <main class="overflow-hidden">
+      <!-- Step Bar -->
+      <div class="bar">
+        <div class="fill"></div>
+      </div>
+
+      <!-- Form Start -->
+      <section class="container steps">
+        <form
+          class="show-section"
+          id="stepForm"
+          novalidate
+          onsubmit="return false"
+        >
+          <!-- Step 1 -->
+          <fieldset id="step1">
+            <div class="row">
+              <div class="col-md-7">
+                <!-- Question Area -->
+                <div class="qArea">
+                  <!-- Question Number -->
+                  <h4 class="qNumber">
+                    Question <span id="currentStep">1</span>/<span
+                      id="totalSteps"
+                      >4</span
+                    >
+                  </h4>
+
+                  <!-- Question -->
+                  <h1 class="question">
+                    Which Former British colony was Given Back to China in 1997?
+                  </h1>
+
+                  <!-- Question BG -->
+                  <img
+                    class="QBG"
+                    src="assets/images/QuestionBG.png"
+                    alt="QuestionBG"
+                  />
+                </div>
+
+                <!-- Step 1 Next Prev -->
+                <div class="nextPrev">
+                  <button type="button" class="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button type="button" class="next" id="step1btn">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Options -->
+              <div class="col-md-5">
+                <div class="options">
+                  <div class="option animate">
+                    <input type="radio" name="op1" value="Russia" />
+                    <label>Russia</label>
+                    <span>A</span>
+                  </div>
+                  <div class="option animate delay-100">
+                    <input type="radio" name="op1" value="America" />
+                    <label>America</label>
+                    <span>B</span>
+                  </div>
+                  <div class="option animate delay-200">
+                    <input type="radio" name="op1" value="Australia" />
+                    <label>Australia</label>
+                    <span>C</span>
+                  </div>
+                  <div class="option animate delay-300">
+                    <input type="radio" name="op1" value="Hong Kong" />
+                    <label>Hong Kong</label>
+                    <span>D</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Step 2 -->
+          <fieldset id="step2">
+            <div class="row">
+              <div class="col-md-7">
+                <!-- Question Area -->
+                <div class="qArea">
+                  <!-- Question Number -->
+                  <h4 class="qNumber">
+                    Question <span id="currentStep">2</span>/<span
+                      id="totalSteps"
+                      >4</span
+                    >
+                  </h4>
+
+                  <!-- Question -->
+                  <h1 class="question">What is the capital of France?</h1>
+
+                  <!-- Question BG -->
+                  <img
+                    class="QBG"
+                    src="assets/images/QuestionBG.png"
+                    alt="QuestionBG"
+                  />
+                </div>
+
+                <!-- Step 1 Next Prev -->
+                <div class="nextPrev">
+                  <button type="button" class="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button type="button" class="next" id="step2btn">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Options -->
+              <div class="col-md-5">
+                <div class="options">
+                  <div class="option animate">
+                    <input type="radio" name="op2" value="London" />
+                    <label>London</label>
+                    <span>A</span>
+                  </div>
+                  <div class="option animate delay-100">
+                    <input type="radio" name="op2" value="Berlin" />
+                    <label>Berlin</label>
+                    <span>B</span>
+                  </div>
+                  <div class="option animate delay-200">
+                    <input type="radio" name="op2" value="Madrid" />
+                    <label>Madrid</label>
+                    <span>C</span>
+                  </div>
+                  <div class="option animate delay-300">
+                    <input type="radio" name="op1" value="Paris" />
+                    <label>Paris</label>
+                    <span>D</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Step 3 -->
+          <fieldset id="step3">
+            <div class="row">
+              <div class="col-md-7">
+                <!-- Question Area -->
+                <div class="qArea">
+                  <!-- Question Number -->
+                  <h4 class="qNumber">
+                    Question <span id="currentStep">3</span>/<span
+                      id="totalSteps"
+                      >4</span
+                    >
+                  </h4>
+
+                  <!-- Question -->
+                  <h1 class="question">
+                    Which Former British colony was Given Back to China in 1997?
+                  </h1>
+
+                  <!-- Question BG -->
+                  <img
+                    class="QBG"
+                    src="assets/images/QuestionBG.png"
+                    alt="QuestionBG"
+                  />
+                </div>
+
+                <!-- Step 1 Next Prev -->
+                <div class="nextPrev">
+                  <button type="button" class="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button type="button" class="next" id="step3btn">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Options -->
+              <div class="col-md-5">
+                <div class="options">
+                  <div class="option animate">
+                    <input type="radio" name="op3" value="Russia" />
+                    <label>Russia</label>
+                    <span>A</span>
+                  </div>
+                  <div class="option animate delay-100">
+                    <input type="radio" name="op3" value="America" />
+                    <label>America</label>
+                    <span>B</span>
+                  </div>
+                  <div class="option animate delay-200">
+                    <input type="radio" name="op3" value="Australia" />
+                    <label>Australia</label>
+                    <span>C</span>
+                  </div>
+                  <div class="option animate delay-300">
+                    <input type="radio" name="op3" value="Hong Kong" />
+                    <label>Hong Kong</label>
+                    <span>D</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <!-- Step 4 -->
+          <fieldset id="step4">
+            <div class="row">
+              <div class="col-md-7">
+                <!-- Question Area -->
+                <div class="qArea">
+                  <!-- Question Number -->
+                  <h4 class="qNumber">
+                    Question <span id="currentStep">4</span>/<span
+                      id="totalSteps"
+                      >4</span
+                    >
+                  </h4>
+
+                  <!-- Question -->
+                  <h1 class="question">What is the capital of France?</h1>
+
+                  <!-- Question BG -->
+                  <img
+                    class="QBG"
+                    src="assets/images/QuestionBG.png"
+                    alt="QuestionBG"
+                  />
+                </div>
+
+                <!-- Step 4 Next Prev -->
+                <div class="nextPrev">
+                  <button type="button" class="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button type="button" class="next" id="sub">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Options -->
+              <div class="col-md-5">
+                <div class="options">
+                  <div class="option animate">
+                    <input type="radio" name="op4" value="London" />
+                    <label>London</label>
+                    <span>A</span>
+                  </div>
+                  <div class="option animate delay-100">
+                    <input type="radio" name="op4" value="Berlin" />
+                    <label>Berlin</label>
+                    <span>B</span>
+                  </div>
+                  <div class="option animate delay-200">
+                    <input type="radio" name="op4" value="Madrid" />
+                    <label>Madrid</label>
+                    <span>C</span>
+                  </div>
+                  <div class="option animate delay-300">
+                    <input type="radio" name="op4" value="Paris" />
+                    <label>Paris</label>
+                    <span>D</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!-- result -->
+    <div class="loadingresult">
+      <img src="assets/images/loading.gif" alt="loading" />
+    </div>
+
+    <div class="main thankyou-page">
+      <div class="main-inner">
+        <div class="logo">
+          <div class="logo-icon">
+            <img src="assets/images/logo.png" alt="" />
+          </div>
+          <div class="logo-text">uiza.</div>
+        </div>
+        <article>
+          <h1><span>Thank You</span> For Your Time!</h1>
+          <span>Your submission has been received</span>
+          <p>
+            Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas
+            concludaturque usu, facete detracto patrioque an per, lucilius
+            pertinacia eu vel.
+          </p>
+        </article>
+
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-google"></i>Google</a>
+          <a href="#"><i class="fa-brands fa-apple"></i>Apple ID</a>
+          <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+        </div>
+        <div class="mb-5 back-home">
+          <a href="https://templates.seekviral.com/index.html">Back to Home</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="error"></div>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/Bootstrap/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="assets/js/jQuery/jquery-3.7.1.min.js"></script>
+
+    <!-- THankyou JS -->
+    <script src="assets/js/thankyou.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+  </body>
+
+<!-- Mirrored from templates.seekviral.com/quiza/quiz/Quiz12/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Sep 2024 07:47:58 GMT -->
+</html>
